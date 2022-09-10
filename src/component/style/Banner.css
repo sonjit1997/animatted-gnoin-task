@@ -1,0 +1,23 @@
+.nav{
+    position: absolute;
+    top: 6%;
+    left: 30%;
+
+}
+#main-text{
+    font-size: 65px;
+    margin-left: -10px;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #fff;
+    background-image: url(https://i.pinimg.com/originals/11/cd/65/11cd656918c19f1d38b206732d710f27.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 80s linear infinite;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0; 
+    }
+}

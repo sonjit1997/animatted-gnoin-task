@@ -4,7 +4,7 @@ import './style/Navbar.css'
 const Navbar = () => {
   return (
     <>
-      <nav>
+      <nav className="shadow-lg">
         <a href='#'>home</a>
         <a href='#'>account</a>
         <a href='#'>contact</a>

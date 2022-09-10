@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-body {
-	font-family: 'Open Sans', sans-serif;
-	background: #2c3e50;
-}
+
 nav{
 	position: relative;
-	margin: 60px auto 0;
+	margin: 0 auto 0;
 	width: 590px;
 	height: 50px;
 	background: #34495e;
