@@ -1,15 +1,16 @@
 .nav{
     position: absolute;
-    top: 6%;
-    left: 30%;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 
 }
 #main-text{
-    font-size: 65px;
+    font-size: 60px;
     margin-left: -10px;
     color: transparent;
     text-transform: uppercase;
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: .5px #fff;
     background-image: url(https://i.pinimg.com/originals/11/cd/65/11cd656918c19f1d38b206732d710f27.png);
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -20,4 +21,108 @@
     100%{
         background-position: 2000px 0; 
     }
+}
+#Drop-button{
+    border: 1px solid white;
+    width: 50rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    opacity: 50%;
+    color: rgb(44, 4, 154);
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: px;
+}
+.grid1{
+    margin-left: 3.7%;
+    height: 270px;
+    width: 700px;
+    display: grid;
+    grid-template-columns:  33.33%  33.33% 33.33% ;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+    
+  
+}
+
+.grid-image{
+    width:100%;
+    height:100%;
+    text-align: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+.card{
+    margin: 1%;
+    background-color: transparent;
+  cursor: pointer;
+}
+
+.dropdown-menu{
+background: transparent;
+border: none;
+}
+.dropdown-item:hover{
+    background: transparent;
+}
+.bubbles{
+    width:92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.bubbles img{
+    width: 50px;
+    animation: bubbles 7s linear infinite;
+}
+
+@keyframes bubbles{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: .7;
+    }
+    70%{
+        
+        opacity: .9;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+}
+.bubbles img:nth-child(2){
+    animation-delay: .5s;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3.5s;
+    width: 38px;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 0s;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 2.7s;
+    width: 20px;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 5.2s;
+    width: 35px;
+}
+.bubbles img:nth-child(7){
+    animation-delay: .2s;
+    width: 12px;
 }

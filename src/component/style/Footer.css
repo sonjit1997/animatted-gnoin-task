@@ -1,7 +1,8 @@
 #footer {
     width: 100%;
     height: 45px;
-    background-color: #34495e;
+    background-color: #343e5e;
+    opacity: 70%;
     border: none;
     position: fixed;
     top: 97%;
@@ -13,4 +14,4 @@
     background-image: linear-gradient(to right,#1a5a9a,#123559,#000911);
     color: white;
   }
-  
+ 
