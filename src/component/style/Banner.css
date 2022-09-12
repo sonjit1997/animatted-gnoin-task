@@ -22,50 +22,9 @@
         background-position: 2000px 0; 
     }
 }
-#Drop-button{
-    border: 1px solid white;
-    width: 50rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: antiquewhite;
-    opacity: 50%;
-    color: rgb(44, 4, 154);
-    font-weight: 700;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing: px;
-}
-.grid1{
-    margin-left: 3.7%;
-    height: 270px;
-    width: 700px;
-    display: grid;
-    grid-template-columns:  33.33%  33.33% 33.33% ;
-    grid-template-rows: 50% 50%;
-    text-align: center;
-    
-  
-}
 
-.grid-image{
-    width:100%;
-    height:100%;
-    text-align: center;
-    border-top-right-radius: 2%;
-    border-top-left-radius: 2%;
-}
-.card{
-    margin: 1%;
-    background-color: transparent;
-  cursor: pointer;
-}
 
-.dropdown-menu{
-background: transparent;
-border: none;
-}
-.dropdown-item:hover{
-    background: transparent;
-}
+
 .bubbles{
     width:92%;
     display: flex;
@@ -125,4 +84,34 @@ border: none;
 .bubbles img:nth-child(7){
     animation-delay: .2s;
     width: 12px;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+
+.card{
+    border: 2px solid rgb(83, 82, 82);
+    cursor: pointer;
+    
+}
+.card:hover{
+    box-shadow: 0 7px 7px gray;
+    border: 2px solid red;
+}
+#dropdown{
+    border: 2px solid red;
+    text-transform: uppercase;
+    color: rgb(255, 244, 244);
+}
+#dropdown:hover{
+   background-color: red;
+   opacity: 70%;
+   border: none;
+   border: 2px solid transparent;
+   
+    
 }
